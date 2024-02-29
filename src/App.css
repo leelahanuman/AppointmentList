@@ -1,0 +1,66 @@
+body{
+  cursor: pointer;
+}
+table{
+  min-width:900px;
+  width:900px;
+  max-width:90%;
+}
+.title{
+  color:gray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', f;
+  font-weight:bold;
+  font-size:large;
+}
+th{
+  /* text-align:center; */
+  color:lightgray !important;
+}
+td{
+  /* text-align:center; */
+  padding-top:3px;
+}
+.avatar-image {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    line-height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    
+  }
+  .patientName{
+    font-size:medium;
+    font-weight: bold;
+    margin:0;
+  }
+  .mobileNumber{
+    margin:0;
+    color:lightgray;
+  }
+  .Injury{
+    background-color:rgb(175, 175, 193);
+    border-radius: 5px;
+    font-size: medium;
+    border:0;
+    width: auto;
+  }
+  svg{
+    display: inline;
+    vertical-align: middle;
+    color: lightgray;
+  }
+  .fa-circle-star {
+    font-size: 18px;
+    color:lightgreen;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(24, 220, 50, 0.4); /* Adding shadow effect */}
+.fa-clock{
+  font-size: 18px;
+    color:rgb(77, 70, 70);
+    text-align: left;
+    border: 1px dashed black;
+    border-radius: 50%; 
+    }
+    
